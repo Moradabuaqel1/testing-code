@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('test') {
       steps {
-        echo "hello"
+        echo "hello2"
         slackSend botUser: true,
                  channel: '#new-jenkins-alerts',
                  color: '#00ff00',
