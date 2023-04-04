@@ -9,7 +9,6 @@ pipeline {
                  color: '#00ff00',
                  message: 'Testing Jekins with Slack',
                  tokenCredentialId: 'slack-int'
-
       }
     }
   }
